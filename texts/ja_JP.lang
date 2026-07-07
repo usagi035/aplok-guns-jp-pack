@@ -1,0 +1,176 @@
+entity.trenbankai:l83a1_grenade_entity.desc=発煙手榴弾
+entity.trenbankai:m84_grenade_entity.desc=スタングレネード
+entity.trenbankai:mk2_grenade_entity.desc=グレネード
+entity.trenbankai:landmine_explosion.name=地雷
+entity.trenbankai:bullet.name=Bullet
+##Iems
+##カテゴリー
+itemGroup.name.trenbankai:containers=コンテナ
+itemGroup.name.trenbankai:hesco=防壁
+itemGroup.name.trenbankai:props=装飾品
+itemGroup.name.trenbankai:workbench=ワークベンチ
+itemGroup.name.trenbankai:weapons=武器
+
+item.helmet_6b47.name=ヘルメット[6B46 Ratnik-BSh]
+item.helmet_6b47_nvg.name=ヘルメット[6B46 Ratnik-BSh + nvg]
+item.juggernaut_boots.name=重装備兵のブーツ
+item.juggernaut_chestplate.name=重装備兵の胸甲
+item.juggernaut_helmet.name=重装備兵のヘルメット
+item.juggernaut_leggings.name=重装備兵の脚甲
+item.nvg.name=ナイトビジョンゴーグル[nvg]
+item.vest_6b13.name=ボディーアーマー [6B13]
+item.vest_6b3.name=ボディアーマー [6B3]
+item.vest_bnti_gzhelk.name=ボディアーマー [BNTI Gzhel-K]
+
+item.acog_sight.name=ACOGサイト
+item.eotech_sight.name=EOTechサイト
+item.okp7_reflex_sight.name=OKP-7 Reflexサイト
+item.predator_v4_sight.name=Predator V4サイト
+item.foregrip.name=フォアグリップ
+item.laser_red.name=レーザーサイト（赤）
+item.laser_green.name=レーザーサイト（緑）
+item.scope_hp.name=高倍率スコープ
+item.scope_lp.name=低倍率スコープ
+item.silencer.name=サイレンサー
+
+item.blueprint_ammo.name=Ammoの設計図
+item.blueprint_attachments.name=Attachmentsの設計図
+item.blueprint_guns.name=Gunsの設計図
+item.blueprint_vehicle.name=Vehicleの設計図
+
+item.bullet_9x19pr.name=9x19mm-パラベラム弾薬
+item.bullet_12gauge.name=12ゲージ散弾
+item.bullet_50ae.name=.50AE弾薬
+item.bullet_545x39.name=5.45x39mm弾薬
+item.bullet_556x45.name=5.56x45mm NATO弾
+item.bullet_762x39.name=7.62x39mm弾
+item.bullet_762x51.name=7.62x51mm NATO弾
+
+item.cooked_flesh.name=調理された腐肉
+
+item.ak12.name=AK-12
+item.ak47.name=AK-47
+item.awp.name=AWP
+item.deagle.name=デザートイーグル
+item.fnfal.name=FN FAL
+item.glock17.name=グロック17
+item.glock18.name=グロック18c
+item.m249.name=M249 軽機関銃
+item.m4a1.name=M4A1
+item.mossberg.name=Mossberg 500
+item.mp5a5.name=HK MP5-A5
+item.rpg7.name=RPG-7
+
+item.ak12_mag.name=AK-12 マガジン(30発)
+item.ak47_mag.name=AK-47 マガジン(30発)
+item.awp_mag.name=AWP マガジン(10発)
+item.deagle_mag.name=デザートイーグル マガジン(7発)
+item.fnfal_mag.name=FN FAL マガジン(20発)
+item.glock17_mag.name=Glock 17 マガジン(17発)
+item.glock18_mag.name=Glock 18c マガジン(17発)
+item.m249_mag.name=M249 マガジン(200)
+item.m4a1_mag.name=M4A1 マガジン(30発)
+item.mp5a5_mag.name=HK MP5-A5 マガジン(30発)
+item.rpg7_rocket.name=RPG-7 Rocket
+
+item.aluminum_ingot.name=アルミニウムのインゴット
+item.aluminum_nugget.name=アルミニウムの塊
+item.bucket_petroleum.name=石油入りバケツ
+item.gunmetal_ingot.name=ガンメタルのインゴット
+item.gunmetal_nugget.name=ガンメタルの塊
+item.gunmetal_scrap.name=ガンメタルのスクラップ
+item.plastic_mass.name=プラスチックの塊
+item.plastic_plate.name=プラスチックの板
+item.steel_ingot.name=鋼のインゴット
+item.steel_mix.name=鋼の混合物
+item.steel_nugget.name=鋼の塊
+item.sulfur_powder.name=硫黄粉末
+
+item.landmine.name=地雷
+
+item.settings_menu.name=設定メニュー
+
+item.barrel_long.name=バレル(長)
+item.barrel_medium.name=バレル(中)
+item.barrel_short.name=バレル(短)
+item.grip.name=グリップ
+item.grip_pistol.name=ピストル グリップ
+item.stock_polymer.name=ポリマーストック
+item.stock_rpg7.name=RPG-7 ストック
+item.stock_sniper_polymer.name=狙撃用ポリマーストック
+item.stock_wood.name=木製ストック
+item.stock_foldable.name=折り畳み式ストック
+
+item.l83a1_grenade.name=L83A1 グレネード (発煙)
+item.m84_grenade.name=M84 グレネード (閃光手榴弾)
+item.mk2_grenade.name=Mk 2 グレネード 
+item.flare.name=フレア
+
+## Tiles
+
+tile.aluminum_block.name=アルミニウムブロック
+tile.aluminum_ore.name=アルミニウム鉱石
+tile.deepslate_aluminum_ore.name=深層岩アルミニウム鉱石
+tile.steel_block.name=鋼ブロック
+tile.gunmetal_block.name=ガンメタルブロック
+tile.steel_ore.name=鋼鉱石
+
+tile.container_blue.name=青いコンテナ
+tile.container_red.name=赤いコンテナ
+tile.container_green.name=緑のコンテナ
+tile.container_brown.name=茶色のコンテナ
+
+tile.hesco_olive.name=Hesco Bastion [オリーブ色]
+tile.hesco_snow.name=Hesco Bastion [白色]
+tile.hesco_tan.name=Hesco Bastion [薄茶色]
+
+tile.spotlight.name=スポットライト
+tile.barbed_wire.name=有刺鉄線
+tile.sandbag.name=土嚢
+tile.hedgehog.name=チェコ・ヘッジホッグ
+tile.ceiling_light.name=シーリングライト
+tile.corrugated_metal_rusty.name=錆びたトタン板
+tile.corrugated_metal.name=トタン板
+tile.tread_plate.name=チェッカープレート
+tile.military_wall.name=軍用壁
+tile.hazard_block.name=警告ブロック
+
+tile.ammo_workbench.name=ワークベンチ(弾薬)
+tile.attachment_workbench.name=ワークベンチ(アタッチメント)
+tile.gun_workbench.name=ワークベンチ(銃)
+
+## Messages
+
+game.message.joined=§e[Aplok Guns]§r  §e設定アイテム§rでゲーム設定をカスタマイズできます！
+
+game.message.gun_workbench.no_blueprints=§cインベントリにアタッチメントの設計図がありません
+game.message.gun_workbench.no_support=§cあなたの持っている銃はアタッチメントに対応していません.
+game.message.gun_workbench.hold_gun=§cアタッチメントメニューを開くには銃を手に持ってください。
+game.message.ammo_workbench.no_ingredients=§c%sを作成するための素材がありません。
+game.message.ammo_workbench.ingredients_cost=%sを作成するには%s %sと%s %sが必要です。
+game.message.ammo_workbench.action.get=%s を入手
+
+game.action.cancel=キャンセル
+
+game.tip.reloading=> リロード中... <
+
+death.attack.bullet=%1$s は %2$s の %3$s によって倒された
+death.attack.bullet.head=%1$s は %2$s の %3$s でヘッドショットされた。
+
+### UI Texts
+ui.settings.title=設定
+ui.settings.save_button=保存
+ui.settings.page_text= - 設定ページ
+ui.settings.required_op= - §c OP権限が必要です。
+ui.settings.saved=§a設定が正常に保存されました！
+ui.settings.need_op=§cこのオプションを変更するには「admin」タグが必要です
+
+### UI Categories
+ui.settings.category.general=一般
+ui.settings.category.host=ホスト
+ui.settings.category.weapons=武器
+
+### UI Weapons
+ui.settings.setting.wall_detection=壁貫通判定
+ui.settings.setting.disable_shot_light=発砲時の光を無効化 §c[ラグを軽減]
+ui.settings.setting.deathMessage=デスメッセージ
