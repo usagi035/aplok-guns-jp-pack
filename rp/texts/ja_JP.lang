@@ -1,16 +1,22 @@
+
+#checked.
 entity.trenbankai:l83a1_grenade_entity.desc=発煙手榴弾
 entity.trenbankai:m84_grenade_entity.desc=スタングレネード
 entity.trenbankai:mk2_grenade_entity.desc=グレネード
 entity.trenbankai:landmine_explosion.name=地雷
 entity.trenbankai:bullet.name=Bullet
-##Iems
-##カテゴリー
+entity.trenbankai:rocket.name=ロケット
+
+##Iems,checked.
 itemGroup.name.trenbankai:containers=コンテナ
 itemGroup.name.trenbankai:hesco=防壁
 itemGroup.name.trenbankai:props=装飾品
 itemGroup.name.trenbankai:workbench=ワークベンチ
-itemGroup.name.trenbankai:weapons=武器
-
+itemGroup.name.trenbankai:attachments=アタッチメント
+itemGroup.name.trenbankai:ammo=マガジン・弾丸
+itemGroup.name.trenbankai:throwables=投擲物
+itemGroup.name.trenbankai:weapons=銃
+#checked.
 item.helmet_6b47.name=ヘルメット[6B46 Ratnik-BSh]
 item.helmet_6b47_nvg.name=ヘルメット[6B46 Ratnik-BSh + nvg]
 item.juggernaut_boots.name=重装備兵のブーツ
@@ -21,7 +27,7 @@ item.nvg.name=ナイトビジョンゴーグル[nvg]
 item.vest_6b13.name=ボディーアーマー [6B13]
 item.vest_6b3.name=ボディアーマー [6B3]
 item.vest_bnti_gzhelk.name=ボディアーマー [BNTI Gzhel-K]
-
+#checked.
 item.acog_sight.name=ACOGサイト
 item.eotech_sight.name=EOTechサイト
 item.okp7_reflex_sight.name=OKP-7 Reflexサイト
@@ -33,10 +39,10 @@ item.scope_hp.name=高倍率スコープ
 item.scope_lp.name=低倍率スコープ
 item.silencer.name=サイレンサー
 
-item.blueprint_ammo.name=Ammoの設計図
-item.blueprint_attachments.name=Attachmentsの設計図
-item.blueprint_guns.name=Gunsの設計図
-item.blueprint_vehicle.name=Vehicleの設計図
+item.blueprint_ammo.name=弾薬の設計図
+item.blueprint_attachments.name=アタッチメントの設計図
+item.blueprint_guns.name=銃の設計図
+item.blueprint_vehicle.name=乗り物の設計図
 
 item.bullet_9x19pr.name=9x19mm-パラベラム弾薬
 item.bullet_12gauge.name=12ゲージ散弾
@@ -50,24 +56,31 @@ item.cooked_flesh.name=調理された腐肉
 
 item.ak12.name=AK-12
 item.ak47.name=AK-47
+item.ak74.name=AK-74
+item.akm.name=AKM
+item.aks74u.name=AKS-47U
 item.awp.name=AWP
 item.deagle.name=デザートイーグル
 item.fnfal.name=FN FAL
-item.glock17.name=グロック17
-item.glock18.name=グロック18c
+item.glock17.name=Glock17
+item.glock18.name=Glock18c
 item.m249.name=M249 軽機関銃
-item.m4a1.name=M4A1
+item.m4a1.name=M4A1 
 item.mossberg.name=Mossberg 500
+item.m1014.name=M1014 §c(テスト)§r
 item.mp5a5.name=HK MP5-A5
 item.rpg7.name=RPG-7
 
+
+
 item.ak12_mag.name=AK-12 マガジン(30発)
 item.ak47_mag.name=AK-47 マガジン(30発)
+item.ak74_mag.name=AK-74 マガジン(30発)
+item.akm_mag.name=AKM マガジン(30発)
 item.awp_mag.name=AWP マガジン(10発)
 item.deagle_mag.name=デザートイーグル マガジン(7発)
 item.fnfal_mag.name=FN FAL マガジン(20発)
-item.glock17_mag.name=Glock 17 マガジン(17発)
-item.glock18_mag.name=Glock 18c マガジン(17発)
+item.glock_mag.name=Glock17/18c マガジン(17発)
 item.m249_mag.name=M249 マガジン(200)
 item.m4a1_mag.name=M4A1 マガジン(30発)
 item.mp5a5_mag.name=HK MP5-A5 マガジン(30発)
@@ -135,17 +148,19 @@ tile.tread_plate.name=チェッカープレート
 tile.military_wall.name=軍用壁
 tile.hazard_block.name=警告ブロック
 
-tile.ammo_workbench.name=ワークベンチ(弾薬)
-tile.attachment_workbench.name=ワークベンチ(アタッチメント)
-tile.gun_workbench.name=ワークベンチ(銃)
+tile.ammo_workbench.name=弾薬用ワークベンチ
+tile.attachment_workbench.name=アタッチメント用ワークベンチ
+tile.weapon_workbench.name=武器用ワークベンチ
 
 ## Messages
 
 game.message.joined=§e[Aplok Guns]§r  §e設定アイテム§rでゲーム設定をカスタマイズできます！
 
-game.message.gun_workbench.no_blueprints=§cインベントリにアタッチメントの設計図がありません
-game.message.gun_workbench.no_support=§cあなたの持っている銃はアタッチメントに対応していません.
-game.message.gun_workbench.hold_gun=§cアタッチメントメニューを開くには銃を手に持ってください。
+game.message.weapon_workbench.hold_weapon=§cアタッチメント用ワークベンチを使用するには、武器をメインハンドに持ってください。
+game.message.weapon_workbench.no_support=§cこの武器はアタッチメントの装着に対応していません。
+game.message.weapon_workbench.no_config=§cこの武器のアタッチメント設定が見つかりませんでした。
+game.message.weapon_workbench.missing_attachment_item=§c必要なアタッチメントがインベントリにありません。
+game.message.weapon_workbench.transaction_failed=§c処理に失敗しました。必要なアタッチメントを所持しているか確認してください。
 game.message.ammo_workbench.no_ingredients=§c%sを作成するための素材がありません。
 game.message.ammo_workbench.ingredients_cost=%sを作成するには%s %sと%s %sが必要です。
 game.message.ammo_workbench.action.get=%s を入手

@@ -1,0 +1,4 @@
+*.mcaddon
+*.mcpack
+.vscode
+*.log
