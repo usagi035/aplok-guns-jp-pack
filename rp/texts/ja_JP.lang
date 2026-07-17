@@ -16,6 +16,7 @@ itemGroup.name.trenbankai:attachments=アタッチメント
 itemGroup.name.trenbankai:ammo=マガジン・弾丸
 itemGroup.name.trenbankai:throwables=投擲物
 itemGroup.name.trenbankai:weapons=銃
+itemGroup.name.blueprint=
 #checked.
 item.helmet_6b47.name=ヘルメット[6B46 Ratnik-BSh]
 item.helmet_6b47_nvg.name=ヘルメット[6B46 Ratnik-BSh + nvg]
@@ -39,6 +40,7 @@ item.scope_hp.name=高倍率スコープ
 item.scope_lp.name=低倍率スコープ
 item.silencer.name=サイレンサー
 
+item.blueprint_weapons.name=武器の設計図
 item.blueprint_ammo.name=弾薬の設計図
 item.blueprint_attachments.name=アタッチメントの設計図
 item.blueprint_guns.name=銃の設計図
