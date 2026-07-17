@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "name": "[Aplok Guns]日本語化パック",
-        "description": "Aplok Gunsの非公式日本語化アドオンです。\nAplok Gunsの製作者様には許可を得ています。\n Maked by usagi035\n usagi035.com/addons/aplok-guns/",
+        "name": "[TL-PACK]AG",
+        "description": "Aplok Gunsの非公式日本語化アドオンです。\nversion 1.2.0\nAplok Gunsの製作者様には許可を得ています。\n Maked by usagi035\n usagi035.com/addons/aplok-guns/",
         "uuid": "5cc7a104-5477-4329-bf6e-89bb786ba8b5",
         "version": [
             1,
@@ -17,7 +17,7 @@
     },
     "modules": [
         {
-            "description": "[Aplok Guns]日本語化パック",
+            "description": "TL-PACK",
             "type": "resources",
             "uuid": "3f723881-6367-4e85-8dfb-2ac3721a60b8",
             "version": [
